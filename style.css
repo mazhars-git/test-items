@@ -164,14 +164,11 @@ section{
     animation: loading-3 1.5s linear forwards 1.8s;
   }
   .progress.blue .progress-bar {
-    border-color: rgb(41, 127, 248);
+    border-color: rgb(111, 159, 250);
   }
   .progress.blue .progress-left .progress-bar {
     animation: loading-4 1.5s linear forwards 1.8s;
   }
-  /* .progress.blue .progress-left .progress-bar {
-    animation: none;
-  } */
 
   @keyframes loading-1 {
     0% {
@@ -189,8 +186,8 @@ section{
       transform: rotate(0deg);
     }
     100% {
-      -webkit-transform: rotate(144deg);
-      transform: rotate(144deg);
+      -webkit-transform: rotate(130deg);
+      transform: rotate(130deg);
     }
   }
   @keyframes loading-3 {
@@ -199,8 +196,8 @@ section{
       transform: rotate(0deg);
     }
     100% {
-      -webkit-transform: rotate(30deg);
-      transform: rotate(30deg);
+      -webkit-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
   }
   @keyframes loading-4 {
@@ -209,8 +206,8 @@ section{
       transform: rotate(0deg);
     }
     100% {
-      -webkit-transform: rotate(225deg);
-      transform: rotate(125deg);
+      -webkit-transform: rotate(120deg);
+      transform: rotate(120deg);
     }
   }
 
